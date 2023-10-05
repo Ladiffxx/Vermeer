@@ -26,18 +26,10 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
-#square {
-    border: 5px solid #fff;
-    border-radius: 10px;
-    width: 5px;
-    text-align: center;
-    background-color: #f0f0f0;
-    margin-bottom: 5px;
-
-}
-
 
 /* Vous pouvez ajouter du contenu ici, comme des images de peintures de Vermeer et des descriptions. */
 
@@ -63,7 +55,15 @@ button {
     position: relative; /* Transition pour l'effet au survol */
 }
 
+.container img {
+    width: 500px;
+    margin-left: 100px;
+    border: solid rgb(85, 85, 85);
+    border-radius: 10px;
+}
 
-
-
+.container p {
+    margin-right: 50px;
+    color: white;
+}
 
